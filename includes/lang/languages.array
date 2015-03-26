@@ -1,0 +1,40 @@
+<?php 
+
+$lang = array();
+
+$lang["en_GB"] = array();
+
+$lang["en_GB"]["HELLO"] = "Hello";
+$lang["en_GB"]["WELCOME_TO"] = "Welcome to my translation test site";
+$lang["en_GB"]["PLEASE_FEEL"] = "Please feel Free to take a look around";
+$lang["en_GB"]["DONT_TOUCH"] = " But don't touch anything!";
+$lang["de_DE"] = array();
+
+$lang["de_DE"]["HELLO"] = "Hallo";
+$lang["de_DE"]["WELCOME_TO"] = "Herzlich willkommen auf meiner &uuml;bersetzung-test site";
+$lang["de_DE"]["PLEASE_FEEL"] = "Bitte f&uuml;hlen Sie sich Frei, um einen Blick zu nehmen um";
+$lang["de_DE"]["DONT_TOUCH"] = " Aber nicht ber&uuml;hren, nichts!";
+$lang["fr_FR"] = array();
+
+$lang["fr_FR"]["HELLO"] = "Bonjour";
+$lang["fr_FR"]["WELCOME_TO"] = "Bienvenue sur mon site d&#039;essai de traduction";
+$lang["fr_FR"]["PLEASE_FEEL"] = "N&#039;h&eacute;sitez pas &agrave; jeter un oeil autour de";
+$lang["fr_FR"]["DONT_TOUCH"] = " Mais ne touchez &agrave; rien!";
+$lang["pl_PL"] = array();
+
+$lang["pl_PL"]["HELLO"] = "Witam";
+$lang["pl_PL"]["WELCOME_TO"] = "Witamy w m&oacute;j testowy tłumaczenie strony";
+$lang["pl_PL"]["PLEASE_FEEL"] = "Proszę, nie wahaj się, aby się rozejrzeć";
+$lang["pl_PL"]["DONT_TOUCH"] = " Ale niczego nie dotykaj!";
+$lang["ru_RU"] = array();
+
+$lang["ru_RU"]["HELLO"] = "Привет";
+$lang["ru_RU"]["WELCOME_TO"] = "Добро пожаловать в мой тестовый перевод сайта";
+$lang["ru_RU"]["PLEASE_FEEL"] = "Пожалуйста, не стесняйтесь, чтобы осмотреться";
+$lang["ru_RU"]["DONT_TOUCH"] = " Но ничего не трогайте!";
+$lang["it_IT"] = array();
+
+$lang["it_IT"]["HELLO"] = "Ciao";
+$lang["it_IT"]["WELCOME_TO"] = "Benvenuti nella mia prova di traduzione del sito";
+$lang["it_IT"]["PLEASE_FEEL"] = "Per favore, sentitevi Liberi di dare un&#039;occhiata in giro";
+$lang["it_IT"]["DONT_TOUCH"] = " Ma non toccare nulla!";
