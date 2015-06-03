@@ -4,18 +4,13 @@ A PHP Class to create a static array of translations, to use on your website
 ##General Usage
 Pull the latest code or Download the Zip  file, then  add to your project.
 <br />
-
 You will need to register for a free API Key from <a href="http://api.yandex.com/key/form.xml?service=trnsl" target="_blank">Here</a>
-
 <br />
-
-In `includes/configuration.php` file, Change the API Key to the one you receive from Yandex.
-
+In `includes/configuration.php` file, Change the API Key to the one you receive from Yandex, and change the `LANG_PATH` definition to a world writable folder for your file to be output to.
 <br />
-
 Then you can open and edit the `includes/lang/language.php` file, with the array of sentences / paragraphs / words you would like to translate.
-
-<br />Once you have created your array of phrases, simply call the `classes/Lang.php` file from your browser or your command line ( `php classes/Lang.php` )
+<br />
+Once you have created your array of phrases, simply call the `classes/Lang.php` file from your browser or your command line ( `php classes/Lang.php` )
 to create your static array.
 
 ##Currently Supported Languages
