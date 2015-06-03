@@ -24,7 +24,7 @@ Here is a list of the currently supported languages using this method;
 <table>
         <tbody>
           
-            <tr><th>Language</th><th>Language Code</th></tr>
+            <tr><th>Language Code</th><th>Language</th></tr>
             <tr><td>sq</td><td>Albanian</td></tr>
             <tr><td>ar</td><td>Arabic</td></tr>
             <tr><td>hy</td><td>Armenian</td></tr>
