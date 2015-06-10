@@ -17,52 +17,52 @@ to create your static array.
 Here is a list of the currently supported languages using this method;
 
           
-|Language Code|Language|
+| Language Code | Language |
 |---------|---------|
-|sq|Albanian|
-|ar|Arabic|
-|hy|Armenian|
-|az|Azerbaijani|
-|be|Belarusian|
-|bs|Bosnian|
-|bg|Bulgarian|
-|ca|Catalan|
-|zh|Chinese|
-|hr|Croatian|
-|cs|Czech|
-|da|Danish|
-|nl|Dutch|
-|et|Estonian|
-|fi|Finnish|
-|fr|French|
-|ka|Georgian|
-|de|German|
-|el|Greek|
-|he|Hebrew|
-|hu|Hungarian|
-|is|Icelandic|
-|id|Indonesian|
-|it|Italian|
-|ja|Japanese|
-|ko|Korean|
-|lv|Latvian|
-|lt|Lithuanian|
-|mk|Macedonian|
-|ms|Malay|
-|mt|Maltese|
-|no|Norwegian|
-|fa|Persian|
-|pl|Polish|
-|pt|Portuguese|
-|ro|Romanian|
-|ru|Russian|
-|sr|Serbian|
-|sk|Slovak|
-|sl|Slovenian|
-|es|Spanish|
-|sv|Swedish|
-|tt| Tatar|
-|th|Thai|
-|tr|Turkish|
-|uk|Ukrainian|
-|vi|Vietnamese|
+| sq | Albanian|
+| ar | Arabic|
+| hy | Armenian|
+| az | Azerbaijani|
+| be | Belarusian|
+| bs | Bosnian|
+| bg | Bulgarian|
+| ca | Catalan|
+| zh | Chinese|
+| hr | Croatian|
+| cs | Czech|
+| da | Danish|
+| nl | Dutch|
+| et | Estonian|
+| fi | Finnish|
+| fr | French|
+| ka | Georgian|
+| de | German|
+| el | Greek|
+| he | Hebrew|
+| hu | Hungarian|
+| is | Icelandic|
+| id | Indonesian|
+| it | Italian|
+| ja | Japanese|
+| ko | Korean|
+| lv | Latvian|
+| lt | Lithuanian|
+| mk | Macedonian|
+| ms | Malay|
+| mt | Maltese|
+| no | Norwegian|
+| fa | Persian|
+| pl | Polish|
+| pt | Portuguese|
+| ro | Romanian|
+| ru | Russian|
+| sr | Serbian|
+| sk | Slovak|
+| sl | Slovenian|
+| es | Spanish|
+| sv | Swedish|
+| tt |  Tatar|
+| th | Thai|
+| tr | Turkish|
+| uk | Ukrainian|
+| vi | Vietnamese|
