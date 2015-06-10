@@ -18,7 +18,7 @@ Here is a list of the currently supported languages using this method;
 
           
 |Language Code|Language|
-|---------|---------|---------|
+|---------|---------|
 |sq|Albanian|
 |ar|Arabic|
 |hy|Armenian|
