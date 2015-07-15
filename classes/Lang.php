@@ -21,13 +21,13 @@ class Lang
 	private $_updates;
 	private $_gb_version;
 
-	public function __construct($list=null)
+	public function __construct($path,$list=null)
 	{
 		// Check if array already exists
-		if(file_exists(LANG_PATH.'languages.array'))
+		if(file_exists($path.'languages.array'))
 		{
 			// If so, delete it.
-			shell_exec('rm -f '.LANG_PATH.'/languages.array');
+			shell_exec('rm -f '.$path.'/languages.array');
 		}
 
 		$gb = new languages();
@@ -37,7 +37,7 @@ class Lang
 		// Specify the languages in 2 letter shortcode that you want to translate to
 		if($list==null || !is_array($list))
 		{
-			$this->_updates = array('en','de','fr','pl','ru','it');		
+			$this->_updates = array('en','de','fr','pl','ru','it');
 		}
 		else
 		{
@@ -332,7 +332,7 @@ class Lang
 		}
 
 		// Take the contents of the array, and output to static file
-		file_put_contents(LANG_PATH.'/languages.array', $str);
+		file_put_contents($path.'/languages.array', $str);
 
 		return true; 
 	}
@@ -351,4 +351,4 @@ class Lang
 	}
 }
 
-$l = new Lang();
+$l = new Lang($argv[1]);
