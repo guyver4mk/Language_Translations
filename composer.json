@@ -1,0 +1,21 @@
+{
+    "name": "guyver4mk/lang",
+    "description": "A PHP Class to create a static array of translations, to use on your website",
+    "type": "Stable",
+    "license": "GNU Public",
+    "authors": [
+        {
+            "name": "Ciaran Moore",
+            "email": "guyver4mk@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Lang": "classes/"
+        }
+    }
+}
