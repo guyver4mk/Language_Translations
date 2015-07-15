@@ -1,7 +1,7 @@
 {
     "name": "guyver4mk/language_translate",
     "description": "A PHP Class to create a static array of translations, to use on your website",
-    "type": "Stable",
+    "type": "dev",
     "license": "GNU Public",
     "authors": [
         {
