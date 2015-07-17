@@ -1,16 +1,22 @@
 #!bin/bash
 # Web Path = Path to Lang Directory on Server to store array.
-dir_path=$(`echo pwd`);
-web_path = $1
+web_path=$1
+config_file=$2
 
-echo  $dir_path;
+search='define("LANG_DIR",null);'
+replace='define("LANG_DIR",'
+replace="$replace \"$config_file\");"
 
-if[[ $dir_path == *"guyver4mk/language_translate"*]] then;
-	echo true;
-	#php classes/Lang.php $web_path
+echo "s@$search@$replace@g" > $PWD/includes/sar.txt
 
-	#sed -i "s/define('LANG_DIR',null);/define('LANG_DIR',\'$web_path\');/g" /var/www/projects/dfcdata/2/includes/configuration.php
-else
-	echo "You Must run this command from the vendor folder.";
-fi;
+case "$PWD" in 
+	*guyver4mk/language_translate*) 
+		echo "Using Directory $web_path as Install Directory"
+		api_key=$(cat $PWD/includes/lang/api_key.txt)
 
+		php classes/Lang.php $web_path $api_key
+		echo "Updating Configuration File"
+		sed -i -f "$PWD/includes/sar.txt"  $config_file;;
+	*) 
+		echo "You Must run this command from the vendor folder.";;
+esac
